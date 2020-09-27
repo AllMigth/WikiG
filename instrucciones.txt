@@ -1,0 +1,59 @@
+Instructivo del curso de git:
+
+CONFIGURANDO EL USER.NAME
+INGRESAR EL NOMBRE> 	git config --global user.name "Nombre del dev"
+CONSULTARLO>		git config --global user.name 
+
+CONFIGURANDO EL EMAIL
+		git config --global user.email "your email here"
+
+
+GIT 
+
+TIENE 3 ESTADOS:
+
+WORKING AREA> ARCHIVOS DONDE ESTAN ALOJADOS LOS ARCHIVOS DEL PROYECTO A TRABAJAR Y HAREMOS UN REPO
+
+INDEX> ES EL SIGUIENTE PASO PARA COMIENCEN A SER MONITOREADOS, AQUI SE RECONOCEN LOS CAMBIOS
+
+HIT AREA> EL STATUS ACTUAL DEL PROYECTO, EL ULTIMO COMMMIT HECHO
+
+#############################################################
+			COMANDOS USADOS EN GIT
+#############################################################
+
+git init	INICIANDO EL REPOSITORIO
+git status	VER EL ESTADO DEL PROYECTO
+
+MUESTRA EN QUE RAMA ESTAMOS
+
+SI HAY O NO COMMITS
+
+SI HAY O NO ARCHIVOS TRACKEADOS
+
+
+git add -A		 		PARA AGREGAR TODOS LOS ARCVIVOS AL INDEX AREA
+git rm --cached archivo.extension	PARA ELIMINAR UN ARCHIVO USAMOS ESTO
+
+
+git commit -m "aqui mensaje"		PARA AGREGAR LOS ARCHIVOS Y EMPEZAR A CREAR LA LINEA DE TIEMPO
+git log					MUESTRA LOS COMMITS
+
+las muestra asi> 
+
+commit 8867c7be002650db146345358d60b183acf9bd56 (HEAD -> master)
+Author: Juan <jgarzon292@gmail.com>
+Date:   Sun May 17 20:13:56 2020 -0500
+
+    Aqui empiezan los commits, ya vimos algunas cosas
+
+
+git add nombreDelArchivo.txt		PARA AGREGAR CAMBIOS MANDAMOS UN y luego git commit 
+
+######################################################################
+			VIAJES EN EL TIEMPO
+######################################################################
+
+
+git checkout CLAVE DEL COMMIT
+
